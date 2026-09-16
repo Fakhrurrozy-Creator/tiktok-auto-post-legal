@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — TikTok Auto Post</title>
+<style>
+  body { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; font-family: system-ui, "Segoe UI", sans-serif; line-height: 1.65; color: #1d2230; }
+  h1 { font-size: 26px; margin-bottom: 4px; }
+  h2 { font-size: 18px; margin-top: 32px; }
+  .redup { color: #6b7280; }
+  code { background: #f3f4f6; padding: 1px 5px; border-radius: 4px; }
+  hr { border: 0; border-top: 1px solid #e5e7eb; margin: 40px 0; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="redup">Application: <strong>TikTok Auto Post</strong> · Last updated: 16 September 2026</p>
+
+<h2>1. Who we are</h2>
+<p>TikTok Auto Post ("the App") is a personal desktop application operated by a single individual creator
+("the Operator"). It runs locally on the Operator's own computer and is not offered to the public as a service.
+Contact: <strong>[isi alamat email kamu di sini]</strong>.</p>
+
+<h2>2. What the App does</h2>
+<p>The App helps the Operator prepare short vertical videos from their own photos and video clips, then sends the
+finished video file to the Operator's own TikTok inbox as a draft, using TikTok's Content Posting API
+(upload-to-inbox). The Operator reviews and publishes the draft manually inside the TikTok app.</p>
+
+<h2>3. Data we access</h2>
+<ul>
+  <li><strong>TikTok basic profile information</strong> (scope <code>user.info.basic</code>): used only to confirm which
+      TikTok account is connected.</li>
+  <li><strong>Video upload permission</strong> (scope <code>video.upload</code>): used only to send video files created
+      by the Operator to the Operator's own TikTok inbox.</li>
+  <li><strong>Media files and text</strong> the Operator adds to the App (photos, video clips, scripts, captions).</li>
+</ul>
+<p>The App does not access followers, messages, comments, analytics, or any other user's content.</p>
+
+<h2>4. Where data is stored</h2>
+<p>All data stays on the Operator's computer:</p>
+<ul>
+  <li>Access and refresh tokens are stored in a local file (<code>token.json</code>).</li>
+  <li>Media, scripts, and rendered videos are stored in local folders.</li>
+  <li>API keys are stored in a local configuration file (<code>.env</code>).</li>
+</ul>
+<p>The App has no server, no database, no user accounts, and no analytics or tracking.</p>
+
+<h2>5. Data shared with third parties</h2>
+<ul>
+  <li><strong>TikTok</strong>: the video file and upload request, so the draft can reach the Operator's inbox.</li>
+  <li><strong>Google (Gemini API)</strong>: optional. If enabled by the Operator, script text and small preview images
+      of the Operator's own media are sent to Google to generate topic ideas, scripts, and captions.</li>
+</ul>
+<p>No data is sold, rented, or shared with advertisers or any other third party.</p>
+
+<h2>6. Data retention and deletion</h2>
+<p>Data is kept until the Operator deletes it. Deleting <code>token.json</code> removes the TikTok authorization stored
+locally; the Operator can also revoke the App's access at any time from TikTok's app settings. Deleting the App's
+folder removes all remaining data.</p>
+
+<h2>7. Children</h2>
+<p>The App is not intended for anyone under 18 years old.</p>
+
+<h2>8. Changes</h2>
+<p>If this policy changes, the updated version will be published at this same URL with a new "Last updated" date.</p>
+
+<hr>
+
+<h2>Ringkasan dalam Bahasa Indonesia</h2>
+<p>Aplikasi ini berjalan di komputer pribadi pemiliknya. Aplikasi hanya membaca informasi dasar akun TikTok pemilik
+dan mengirimkan video buatan pemilik ke inbox TikTok miliknya sendiri sebagai draft. Token, media, dan pengaturan
+disimpan di komputer pemilik. Tidak ada server, tidak ada pelacakan, dan tidak ada data yang dijual atau dibagikan
+ke pihak ketiga, kecuali ke TikTok (untuk mengirim video) dan ke Google Gemini (opsional, untuk membuat naskah).
+Pemilik dapat mencabut izin kapan saja lewat pengaturan aplikasi TikTok.</p>
+
+</body>
+</html>
